@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Set a clean background color -->
+    <background android:drawable="@color/ic_launcher_background"/>
+
+    <!-- Use your custom app icon image here -->
+    <foreground android:drawable="@drawable/app_icon_foreground"/>
+</adaptive-icon>

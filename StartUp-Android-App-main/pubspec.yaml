@@ -1,0 +1,45 @@
+name: eventallinone_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # API & Local Storage
+  http: ^1.2.0
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/hall.png
+    - assets/images/photographer.png
+    - assets/images/decorator.png
+    - assets/images/caterer.png
+    - assets/images/dj.png
+    - assets/images/app_icon.png
+    - assets/images/app_icon_foreground.png
+    - assets/images/chatbot.png       # 👈 Added customer support chatbot image
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/app_icon_foreground.png"
+  remove_alpha_ios: true
+  min_sdk_android: 21
