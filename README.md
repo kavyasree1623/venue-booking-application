@@ -4,7 +4,6 @@
 
 venue booking Android App is a Flutter-based event management application that helps users plan and manage events by connecting them with different event service vendors such as caterers, decorators, DJs, photographers, and more.
 
-
 The application provides a smooth booking experience with authentication, vendor browsing, event planning, booking history, and profile management.
 
 ---
