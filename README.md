@@ -9,6 +9,7 @@ The application provides a smooth booking experience with authentication, vendor
 ---
 # 🚀 Features
 
+
 * 🔐 User Authentication (Login & Registration)
 * 📅 Event Booking System
 * 🧑‍🍳 Vendor Categories
